@@ -2,19 +2,8 @@ import os
 import shutil
 from datetime import datetime
 import filetype
-# import PIL
-# import pyheif
 
-# path1 = 'C:/Users/Евгения/PycharmProjects/Python_BootCamp/FotoEx'
-path1 = 'D:/Фото/icloud'
-
-# for file in os.listdir(path1):
-#     f = os.stat(path1 + '/' + file).st_mtime
-#     t = filetype.guess(path1 + '/' + file)
-#     print(datetime.fromtimestamp(f), t.extension)
-#     d = str(datetime.fromtimestamp(f))
-#     print(d[0:4])
-
+path1 = 'your/path/to/dir'
 
 # function returns [year, month, extension] from path_to_file
 def get_date_extension(path_to_file):
