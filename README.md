@@ -5,12 +5,11 @@ For now you need to specify path to the folder containing photos (additional dir
 In the end all photos from the initial directory will be sorted by year and month of last changes.
 All other files will be not touched.
 
-### Requirements: 
-* windows (because of / in the path)
+### Requirements:
 * used libraries: *os*, *shutil*, *datetime*, *filetype* 
 
 ### Things to be added:
-1. Deal with different path (windows/unix): *os.path.join()*
+1. Deal with different paths (windows/unix): *os.path.join()*
 2. Make it console app (call script from the console/terminal -> specify path)
 3. Add opportunity to select sorting by years/monts/both.
 4. Add converting to the jpeg: replace original files / create additional folder for jpg / create additional folder for non-jpg.
