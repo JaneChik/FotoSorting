@@ -10,7 +10,7 @@ All other files will be not touched.
 * used libraries: *os*, *shutil*, *datetime*, *filetype* 
 
 ### Things to be added:
-1. Deal with different path (windows/unix)
+1. Deal with different path (windows/unix): *os.path.join()*
 2. Make it console app (call script from the console/terminal -> specify path)
 3. Add opportunity to select sorting by years/monts/both.
 4. Add converting to the jpeg: replace original files / create additional folder for jpg / create additional folder for non-jpg.
